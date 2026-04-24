@@ -22,13 +22,17 @@ Ví dụ một ván chơi
 Số dư: 100.000 VNĐ
 
 Lượt 1: Đặt 10.000 vào Cua
+
 Lượt 2: Đặt 20.000 vào Tôm  
+
 Lượt 3: Đặt 5.000  vào Gà
 
 Kết quả xúc xắc: Cua - Cua - Tôm
 
 → Cua xuất hiện 2 lần: 10.000 × 3 = +30.000 ✅
+
 → Tôm xuất hiện 1 lần: 20.000 × 2 = +40.000 ✅
+
 → Gà  xuất hiện 0 lần: Mất 5.000         ❌
 
 Tổng nhận: 70.000 | Tổng đặt: 35.000 | Lãi: +35.000

@@ -1,4 +1,11 @@
 # Mini-Project-OOP-group-7
+Thành Viên
+Nguyễn Đắc Thái Phong - 25521381
+Mai Tuấn Kiệt - 25520951
+Lê Quốc Trung - 25521955
+Ngô Minh Duy - 25520426
+Nguyễn Vũ Đăng Khoa - 25520876
+
 
 Game Bầu Cua Tôm Cá 🎲
 

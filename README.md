@@ -16,7 +16,7 @@ Bầu Cua Tôm Cá là trò chơi dân gian truyền thống Việt Nam, thườ
 Luật chơi
 Mỗi ván, người chơi thực hiện đúng 3 lượt đặt cược, mỗi lượt chọn 1 ô và 1 số tiền bất kỳ.
 Sau khi đặt xong, nhà cái lắc 3 xúc xắc và trả thưởng theo số lần con vật được chọn xuất hiện:
-Kết quảTiền nhận lạiCon vật không xuất hiệnMất tiền cượcCon vật xuất hiện 1 lầnNhận lại tiền cược × 2Con vật xuất hiện 2 lầnNhận lại tiền cược × 3Con vật xuất hiện 3 lầnNhận lại tiền cược × 4
+Kết quả - Tiền nhận lại. Con vật không xuất hiện Mất tiền cược. Con vật xuất hiện 1 lần Nhận lại tiền cược × 2. Con vật xuất hiện 2 lần Nhận lại tiền cược × 3. Con vật xuất hiện 3 lần Nhận lại tiền cược × 4.
 
 Ví dụ một ván chơi
 Số dư: 100.000 VNĐ

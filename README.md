@@ -1,5 +1,6 @@
 # Mini-Project-OOP-group-7
-Thành Viên
+Thành Viên:
+
 Nguyễn Đắc Thái Phong - 25521381
 Mai Tuấn Kiệt - 25520951
 Lê Quốc Trung - 25521955

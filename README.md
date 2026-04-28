@@ -37,10 +37,6 @@ Kết quả xúc xắc: Cua - Cua - Tôm
 
 Tổng nhận: 70.000 | Tổng đặt: 35.000 | Lãi: +35.000
 
-Điều kiện kết thúc
-
-Người chơi chủ động chọn dừng sau mỗi ván
-Hoặc hết tiền → game tự động kết thúc
 
 link slide: https://www.canva.com/design/DAHHeMVl0B8/T51ZP-FLhSvRQ0rY8NF9MA/edit
 

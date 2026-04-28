@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include <random>
+#include <iomanip>
 using namespace std;
 class NguoiChoi{
 private:
@@ -100,6 +101,21 @@ public:
         }
     }
 };
+
+string tenLinhVat[] = {"Nai", "Bau", "Ga", "Ca", "Cua", "Tom"};
+
+//ghép tên chiến thuật thành khối
+string getNameTactic(int i)
+{
+    string name="";
+    for(int j=0;j<6;j++)
+    {
+        if((i>>j)&1)
+            name += tenLinhVat[j] + " ";     
+    }
+    return name;
+}
+
 int main(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     freopen("test.out","w",stdout);
@@ -108,20 +124,24 @@ int main(){
     //Chạy mô phỏng 1 triệu ván chơi
     int round=10000000;
     for(int i=1;i<=round;i++){
-        A.roll_dice2(); // Nhà cái xốc xúc xắc
+        A.roll_dice1(); // Nhà cái xốc xúc xắc
         A.check(B); // Xử lý các chiến thuật của người chơi
     }
-    string tenLinhVat[] = {"Nai", "Bau", "Ga", "Ca", "Cua", "Tom"};
+    
     int *point = B.get_point();
     int *win = B.get_win();
+
     //In ra lần lượt là chiến thuật chơi, số điểm có được, tỷ lệ thắng và giá trị kỳ vọng sau  khi kết thúc trò chơi
+    cout<<left<<setw(3)<<"STT"<<" | "<<setw(22)<<"chon cac o"<<" | "
+    <<setw(15)<<"diem tong ket"<<" | "
+    <<setw(15)<<"ti le thang(%)"<<" | "
+    <<setw(15)<<"gia tri ki vong"<<endl;
     for(int i=1;i<64;i++){
-        for(int j=0;j<6;j++){
-            if((i>>j)&1){
-                cout<<tenLinhVat[j]<<' ';
-            }
-        }
-        cout<<"| "<<point[i]<<" | "<<(double)win[i]/round<<" | "<<(double)point[i]/round<<'\n';
+        cout<<left<<setw(3)<<i<<" | "<<setw(22);
+        cout<<getNameTactic(i);
+        cout<<" | "<<setw(15)<<fixed<<setprecision(7)<<point[i]
+        <<" | "<<setw(15)<<fixed<<setprecision(7)<<((double)win[i]/round)*100
+        <<" | "<<setw(15)<<fixed<<setprecision(7)<<(double)point[i]/round<<'\n';
     }
     return 0;
 }
